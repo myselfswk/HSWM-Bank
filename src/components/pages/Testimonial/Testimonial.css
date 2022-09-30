@@ -1,0 +1,92 @@
+
+.h1-H {
+    color: #197056;
+}
+
+#testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 70px 10px 10px 0px;
+    background-color: #efefef;
+}
+
+.user {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile img {
+    /* absolute */
+    position: relative;
+    top: -100px;
+    /* left: calc(100% - 10px); */
+    border: 10px solid #fff;
+}
+
+.profile .h3-H {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+#testimonials span {
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    /*space between lines*/
+}
+
+/*blockquote::before {
+    content: '\93';  short code for creating an icon
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after {
+    content: '\94';  short code for creating an icon
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}*/
+.fa-quote-left {
+    color: #007bff;
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+    right: 1px;
+}
+
+.fa-quote-right {
+    color: #007bff;
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+}
+
+.profile {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
