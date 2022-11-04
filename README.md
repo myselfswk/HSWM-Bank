@@ -1,2 +1,2 @@
 # HSWM-Bank
- Chatbot for Bank using React and Google Dialogflow
+ Chatbot for Bank using ReactJS, Firebase Auth & Database and Google Dialogflow
